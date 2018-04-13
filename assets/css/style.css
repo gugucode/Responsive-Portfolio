@@ -1,0 +1,162 @@
+
+body {
+    color: #777777;
+    background-image: url("../images/dust_scratches.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5em;
+} 
+
+p {
+    line-height: 1.5;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+nav ul {
+    width: 960px;
+    height: 70px;
+    margin: auto;
+    background: #ffffff;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #777777;
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    color: #4aaaa5;
+}
+
+img {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+img:hover {
+    opacity: 0.6;
+}
+
+form input {
+    width: 914px;
+    height: 20px;
+    margin: 4px 0;
+    border: 1px solid lightgray;
+}
+
+textarea {
+    width: 914px;
+    height: 150px;
+    border: 1px solid lightgray;
+}
+
+footer {
+    position: absolute; 
+    bottom: -100px; 
+    width: 100%;
+    min-width: 960px;
+    height: 50px;
+    border-top: 5px solid #4aaaa5;
+    background: #666666;
+}
+
+footer p{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+    font-size: small;
+    text-align: center;
+}
+
+.nav {
+    float: right;
+    width: 80px;
+    margin: 25px 0 25px 0;
+    line-height: 20px;
+    text-align: center; 
+}
+
+.right_border {
+    border-right: 2px solid #dddddd;
+}
+
+.full {
+    position: relative;
+    height:600px
+}
+
+.main {
+    position: relative;
+    width: 918px;
+    margin: 30px auto 40px auto;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.portfolio_images {
+    float: left;
+    position: relative;
+    margin: 15px 20px 15px 0;
+}
+
+.portfolio_images p {
+    position: absolute;
+    bottom: 5px;
+    width: 300px;
+    line-height: 50px;
+    color: #ffffff;
+    background: #4aaaa5;
+    text-align: center;
+}
+
+#name {
+    float: left;
+    width: 350px;
+    line-height: 70px;
+    color: #ffffff;
+    background: #4aaaa5;
+    font-size: xx-large;
+    text-align: center; 
+    font-family: "Georgia", Times, "Times New Roman", serif;
+
+}
+
+#profile_img {
+    float: left;
+    width: 200px;
+    height: 290px;
+    margin-right: 10px;
+}
+
+#submit_bnt {
+    width: 90px;
+    height: 35px;
+    background: #4aaaa5;
+    color: #ffffff; 
+    border-radius: 4px;
+}
+
+#submit_bnt:hover {
+    opacity: 0.5;
+}
