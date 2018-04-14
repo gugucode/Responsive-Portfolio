@@ -1,55 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <meta charset="UTF-8">
     <title>My portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- navigation bar -->
     <nav>
-        <ul>
-            <li id="name">Yuechang (Erin) Mei</li>
-            <li><a class="nav"  href="contact.html">Contact</a></li>
-            <li><a class="nav right_border" href="portfolio.html">Portfolio</a></li>
-            <li><a class="nav right_border" href="index.html">About</a></li>
-        </ul>
+        <div id="nav_sect">
+            <ul>
+                <li id="name">Yuechang (Erin) Mei</li>
+                <li><a class="nav"  href="contact.html">Contact</a></li>
+                <li><a class="nav right_border" href="portfolio.html">Portfolio</a></li>
+                <li><a class="nav right_border" href="index.html">About</a></li>
+            </ul>
+        </div>
     </nav>
 
+    <!-- portfolio content -->
     <div style="position: relative;">
         <div class="main clearfix">
-        
-            <h1>Portfolio</h1>
-            <hr>
-            <ul> 
-                <li class="portfolio_images">
-                    <img src="assets/images/ca.JPG" alt="Sunset at California">  
-                    <p>Sunset</p>  
-                </li>
-                
-                <li class="portfolio_images">
-                    <img src="assets/images/shanghai.JPG" alt="Shanghai Pearl Tower">
-                    <p>Shanghai Pearl Tower</p>
-                </li>
+            <div id="img_sect">
+                <h4>Portfolio</h4>
+                <hr>
+                <!-- portfolio pictures -->
 
-                <li class="portfolio_images">
-                    <img src="assets/images/hangzhou.JPG" alt="Hangzhou West Lake">
-                    <p>West Lake</p>
-                </li>
+                <ul> 
+                    <li class="portfolio_images">
+                        <img src="assets/images/ca.JPG" alt="Sunset at California">  
+                        <p>Sunset</p>  
+                    </li>
+                    
+                    <li class="portfolio_images">
+                        <img src="assets/images/shanghai.JPG" alt="Shanghai Pearl Tower">
+                        <p>Shanghai Pearl Tower</p>
+                    </li>
 
-                <li class="portfolio_images">
-                    <img src="assets/images/dam.JPG" alt="Hoover Dam">
-                    <p>Hoover Dam</p>
-                </li>
+                    <li class="portfolio_images">
+                        <img src="assets/images/hangzhou.JPG" alt="Hangzhou West Lake">
+                        <p>West Lake</p>
+                    </li>
 
-                <li class="portfolio_images">
-                    <img src="assets/images/grandcanyon.JPG" alt="Grand Canyon">
-                    <p>Grand Canyon</p>
-                </li>
-            </ul>        
+                    <li class="portfolio_images">
+                        <img src="assets/images/dam.JPG" alt="Hoover Dam">
+                        <p>Hoover Dam</p>
+                    </li>
+
+                    <li class="portfolio_images">
+                        <img src="assets/images/grandcanyon.JPG" alt="Grand Canyon">
+                        <p>Grand Canyon</p>
+                    </li>
+                </ul> 
+            </div>
+            
+            <!-- side bar -->
+            <div id="side_bar">
+                <div style="margin:1em 0;">
+                    <h4>Contact with me</h4>
+                    <hr>
+                </div>
+                <div>
+                    <i class="fab fa-github fa-3x"></i>
+                    <i class="fab fa-linkedin-in fa-3x"></i>
+                    <i class="fab fa-stack-overflow fa-3x"></i>
+                </div>
+            </div>
         </div>
 
+        <!-- footer -->
         <footer>
             <p>Copyright©️</p>          
         </footer>

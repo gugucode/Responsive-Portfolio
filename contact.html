@@ -1,36 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
     <title>My contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- navigation bar -->
     <nav>
-        <ul>
-            <li id="name">Yuechang (Erin) Mei</li>
-            <li><a class="nav"  href="contact.html">Contact</a></li>
-            <li><a class="nav right_border" href="portfolio.html">Portfolio</a></li>
-            <li><a class="nav right_border" href="index.html">About</a></li>
-        </ul>
+        <div id="nav_sect">
+            <ul>
+                <li id="name">Yuechang (Erin) Mei</li>
+                <li><a class="nav"  href="contact.html">Contact</a></li>
+                <li><a class="nav right_border" href="portfolio.html">Portfolio</a></li>
+                <li><a class="nav right_border" href="index.html">About</a></li>
+            </ul>
+        </div>
     </nav>
 
+    <!-- contact me content -->
     <div class="full">
         <div class="main clearfix">
-            <h1>Contact</h1>
-            <hr>
-            <form>
-                Name:<br>
-                <input type="text" name="name"><br>
-                Email:<br>
-                <input type="text" name="email"><br>
-                Message:<br>
-                <textarea name="message"></textarea><br>
-                <input id="submit_bnt" type="submit" value="Submit">
-            </form>        
+            <div id="img_sect">
+                <h1>Contact</h1>
+                <hr>
+                <!-- contact me form -->
+                <form>
+                    Name:<br>
+                    <input type="text" name="name"><br>
+                    Email:<br>
+                    <input type="text" name="email"><br>
+                    Message:<br>
+                    <textarea name="message"></textarea><br>
+                    <input id="submit_bnt" type="submit" value="Submit">
+                </form>  
+            </div>
+
+            <!-- side bar -->
+            <div id="side_bar">
+                <div style="margin:1em 0;">
+                    <h4>Contact with me</h4>
+                    <hr>
+                </div>
+                <div>
+                    <i class="fab fa-github fa-3x"></i>
+                    <i class="fab fa-linkedin-in fa-3x"></i>
+                    <i class="fab fa-stack-overflow fa-3x"></i>
+                </div>
+            </div>
         </div>
+
         <footer>
             <p>Copyright©️</p>          
         </footer>
