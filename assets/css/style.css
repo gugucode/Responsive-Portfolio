@@ -73,6 +73,10 @@ p {
     margin: 30px auto 40px auto;
 }
 
+iframe {
+    height:60em;
+    width: 42em;
+}
 
 h1,h4 {
     font-size: x-large;
@@ -235,7 +239,7 @@ img:hover {
 
     .nav_a {
         float: right;
-        width: 33%;
+        width: 24.5%;
         margin: .3em 0;
         line-height: 2em;
     }  
@@ -243,6 +247,11 @@ img:hover {
     .main {
         width: 100%;
         margin: 2em auto 1em auto;
+    }
+
+    iframe {
+        height:45em;
+        width: 100%;
     }
 
     #content_sect {
@@ -304,7 +313,7 @@ img:hover {
 
     .nav_a {
         float: right;
-        width: 33%;
+        width: 24.5%;
         margin: .3em 0;
         line-height: 2em;
     }  
