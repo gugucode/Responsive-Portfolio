@@ -3,10 +3,13 @@
 <head>
     <title>My portfolio</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/projects.js"></script>
 </head>
 
 <body>
@@ -29,22 +32,17 @@
         <div class="main clearfix">
             <!-- my introduction -->
             <!-- <div id="content_sect"> -->
-            <iframe src="https://gugucode.github.io/Word-Guess-Game/"  height="700" width="650"></iframe>
+            <iframe></iframe>
             <!-- </div> -->
 
-            <!-- side bar -->
+            <!-- project side bar -->
             <div id="side_bar_portfolio">
                 <div style="margin:.5em 0 1em 0;">
-                    <h4>Contact with me</h4>
+                    <h4>Projects</h4>
                     <hr>
                 </div>
-                <div>
-                    <i class="fab fa-github fa-3x"></i>
-                    <i class="fab fa-linkedin-in fa-3x"></i>
-                    <i class="fab fa-stack-overflow fa-3x"></i>
-                </div>
+                <div id="projects"></div>
             </div>
-        </div>
 
         <!-- footer -->
         <footer>

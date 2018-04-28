@@ -75,7 +75,7 @@ p {
 
 iframe {
     height:60em;
-    width: 42em;
+    width: 45em;
 }
 
 h1,h4 {
@@ -212,7 +212,7 @@ img:hover {
 /* side bar */
 #side_bar_portfolio{
     float:right;
-    width: 14em;
+    width: 10em;
     padding: 1em;
     margin-left: 1em;
     border:1px solid lightgray;
