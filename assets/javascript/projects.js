@@ -1,5 +1,5 @@
 var starWarGame = {
-    name: "Star War",
+    name: "Star War Game",
     url: "https://gugucode.github.io/unit-4-game/"
 };
 
@@ -8,7 +8,12 @@ var hangman = {
     url: "https://gugucode.github.io/Word-Guess-Game/"
 };
 
-var projects = [starWarGame,hangman];
+var trivialGame = {
+    name: "Trivial Game",
+    url: "https://gugucode.github.io/TriviaGame/"
+};
+
+var projects = [starWarGame,hangman,trivialGame];
 
 function printProjectsName(){
     for(var i=0; i<projects.length; i++){
