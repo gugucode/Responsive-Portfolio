@@ -13,7 +13,13 @@ var trivialGame = {
     url: "https://gugucode.github.io/TriviaGame/"
 };
 
-var projects = [trivialGame,starWarGame,hangman];
+var gifTastic = {
+    name: "GifTastic",
+    url: "https://gugucode.github.io/GifTastic/"
+};
+
+
+var projects = [gifTastic,trivialGame,starWarGame,hangman];
 
 function printProjectsName(){
     for(var i=0; i<projects.length; i++){

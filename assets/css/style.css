@@ -212,13 +212,21 @@ img:hover {
 /* side bar */
 #side_bar_portfolio{
     float:right;
-    width: 10em;
+    width: 14em;
     padding: 1em;
     margin-left: 1em;
     border:1px solid lightgray;
     background: #ffffff;
 }
 
+.project_side {
+    float:right;
+    width: 10em;
+    padding: 1em;
+    margin-left: 1em;
+    border:1px solid lightgray;
+    background: #ffffff;
+}
 
 @media only screen and (max-width: 980px) {
 
@@ -251,7 +259,7 @@ img:hover {
 
     iframe {
         height:45em;
-        width: 100%;
+        width: 90%;
     }
 
     #content_sect {
@@ -283,7 +291,7 @@ img:hover {
         width: 100%;
     }
 
-    #side_bar_portfolio {
+    #side_bar_portfolio, .project_side {
         float:left;
         width: 80%;
         padding: .3em 1em;
@@ -351,7 +359,7 @@ img:hover {
         width: 100%;
     }
 
-    #side_bar_portfolio {
+    #side_bar_portfolio, .project_side {
         float: left;
         width: 80%;
         padding: .3em 1em;
