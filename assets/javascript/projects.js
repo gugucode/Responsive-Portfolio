@@ -18,8 +18,13 @@ var gifTastic = {
     url: "https://gugucode.github.io/GifTastic/"
 };
 
+var RPSMultiplayer = {
+    name: "Rock Paper Scissors",
+    url: "https://gugucode.github.io/RPS-Multiplayer/"
+}
 
-var projects = [gifTastic,trivialGame,starWarGame,hangman];
+
+var projects = [RPSMultiplayer,gifTastic,trivialGame,starWarGame,hangman];
 
 function printProjectsName(){
     for(var i=0; i<projects.length; i++){
