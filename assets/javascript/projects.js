@@ -23,8 +23,13 @@ var RPSMultiplayer = {
     url: "https://gugucode.github.io/RPS-Multiplayer/"
 }
 
+var project1 = {
+    name: "Where2eat",
+    url: "https://karimifar.github.io/Project1/"
+}
 
-var projects = [RPSMultiplayer,gifTastic,trivialGame,starWarGame,hangman];
+
+var projects = [project1,RPSMultiplayer,gifTastic,trivialGame,starWarGame,hangman];
 
 function printProjectsName(){
     for(var i=0; i<projects.length; i++){
